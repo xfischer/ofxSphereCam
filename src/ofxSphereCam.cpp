@@ -8,7 +8,7 @@
 
 #include "ofxSphereCam.h"
 
-ofxSphereCam::ofxSphereCam() {
+ofxSphereCam::ofxSphereCam() : ofEasyCam() {
     
     handheld = false;
     noiseCount = 0;
