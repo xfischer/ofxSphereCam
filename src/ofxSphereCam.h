@@ -11,7 +11,7 @@
 #include "ofMain.h"
 #include "ofxTween.h"
 
-class ofxSphereCam : public ofCamera {
+class ofxSphereCam : public ofEasyCam {
 public:
     
 	ofxSphereCam();
